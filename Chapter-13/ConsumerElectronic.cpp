@@ -1,12 +1,16 @@
-//
-//  consumerElectronic.cpp
-//  Chapter_13
-//
-//  Created by Sabin Ghimire on 3/6/17.
-//  Copyright © 2017 Sabin Ghimire. All rights reserved.
-//
+//*****************
+//Project Name: Chapter 13
+//Project Description: class aggregration
+//Project Author: Ghimire, Sabin
+//Is this an extra credit Project:  No
+//Date completed: 03/07/2017
+//Operating system used:OSx
+//IDE Used:xCode
 
+
+//*****************
 #include "ConsumerElectronic.hpp"
+#include "Date.hpp"
 #include <iostream>
 
 using namespace std;
@@ -18,17 +22,17 @@ ConsumerElectronic::ConsumerElectronic() {
     this->brand = "Apple";
     this->model = "iPhone";
     this->rating = 5;
-    //Date releaseDate;
+    this->releaseDate = {01,01,1970};
     
 }
-ConsumerElectronic::ConsumerElectronic(double aPrice, string aBrand, string aModel, int aRating)
+ConsumerElectronic::ConsumerElectronic(double aPrice, string aBrand, string aModel, int aRating, Date areleaseDate)
 {
     cout << "Non Default ConsumerElectronic being created" << endl;
     this->price = aPrice;
     this->brand = aBrand;
     this->model = aModel;
     this->rating = aRating;
-// this->releaseDate ;
+    this->releaseDate = areleaseDate;
     
     
 }
@@ -51,7 +55,12 @@ bool ConsumerElectronic::setRating(int aRating){
     this->rating = aRating;
     return true;
 }
-// bool setReleaseDate(Date aReleaseDate);
+bool ConsumerElectronic::setReleaseDate(Date aReleaseDate)
+{
+    this-> releaseDate = aReleaseDate;
+    return true;
+}
+
 
 double ConsumerElectronic::getPrice(void)
 {
@@ -66,7 +75,10 @@ string ConsumerElectronic::getModel(void){
 int    ConsumerElectronic::getRating(void){
     return this->rating;
 }
-// Date   getReleaseDate(void);
+Date  ConsumerElectronic::getReleaseDate(void)
+{
+    return this->releaseDate;
+}
 
 
 

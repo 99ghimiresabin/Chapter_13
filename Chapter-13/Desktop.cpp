@@ -57,23 +57,23 @@ bool Desktop::setHasBluetooth(bool ahasBluetooth)
     return true;
 }
 
-int Desktop::setMonitorSize(void)
+int Desktop::getMonitorSize(void)
 {
     return this->monitorSize;
 }
-double Desktop::setMonitorWeight(void)
+double Desktop::getMonitorWeight(void)
 {
     return this->monitorWeight;
 }
-bool Desktop::setHasCdDrive(void)
+bool Desktop::getHasCdDrive(void)
 {
     return this->hasCdDrive;
 }
-bool Desktop::setFloppyDrive(void)
+bool Desktop::getFloppyDrive(void)
 {
     return this->hasFloppyDrive;
 }
-bool Desktop::setHasBluetooth(void)
+bool Desktop::getHasBluetooth(void)
 {
     return this->hasBluetooth;
 }

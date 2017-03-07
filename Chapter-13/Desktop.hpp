@@ -32,11 +32,11 @@ public:
     bool setFloppyDrive(bool ahasFloppyDrive);
     bool setHasBluetooth(bool ahasBluetooth);
    
-    int setMonitorSize(void);
-    double setMonitorWeight(void);
-    bool setHasCdDrive(void);
-    bool setFloppyDrive(void);
-    bool setHasBluetooth(void);
+    int getMonitorSize(void);
+    double getMonitorWeight(void);
+    bool getHasCdDrive(void);
+    bool getFloppyDrive(void);
+    bool getHasBluetooth(void);
    
 
     virtual ~Desktop();

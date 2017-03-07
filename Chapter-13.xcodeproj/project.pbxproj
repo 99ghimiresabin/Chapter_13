@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0452103F1E6E8BB9005D971C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0452103E1E6E8BB9005D971C /* main.cpp */; };
+		045210471E6E8C32005D971C /* ConsumerElectronic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045210451E6E8C32005D971C /* ConsumerElectronic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		0452103B1E6E8BB9005D971C /* Chapter-13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chapter-13"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0452103E1E6E8BB9005D971C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		045210451E6E8C32005D971C /* ConsumerElectronic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConsumerElectronic.cpp; sourceTree = "<group>"; };
+		045210461E6E8C32005D971C /* ConsumerElectronic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConsumerElectronic.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0452103E1E6E8BB9005D971C /* main.cpp */,
+				045210451E6E8C32005D971C /* ConsumerElectronic.cpp */,
+				045210461E6E8C32005D971C /* ConsumerElectronic.hpp */,
 			);
 			path = "Chapter-13";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0452103F1E6E8BB9005D971C /* main.cpp in Sources */,
+				045210471E6E8C32005D971C /* ConsumerElectronic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,54 +9,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Chapter-13/Desktop.cpp"
-            timestampString = "510567564.343329"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "Desktop::Desktop(int aMonitorSize, double aMonitorWeight, bool ahasCdDrive, bool ahasBluetooth, bool ahasFloppyDrive)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Desktop::Desktop(int, double, bool, bool, bool)"
-                  moduleName = "Chapter-13"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sabinghimire/Documents/School%20Stuff/CS%202/X%20code/Chapter-13/Chapter-13/Desktop.cpp"
-                  timestampString = "510604765.993188"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "82">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Desktop::Desktop(int, double, bool, bool, bool)"
-                  moduleName = "Chapter-13"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sabinghimire/Documents/School%20Stuff/CS%202/X%20code/Chapter-13/Chapter-13/Desktop.cpp"
-                  timestampString = "510604765.995208"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "54">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Chapter-13/Laptops.cpp"
             timestampString = "510570141.428846"
             startingColumnNumber = "9223372036854775807"
@@ -65,38 +17,6 @@
             endingLineNumber = "23"
             landmarkName = "Laptops::Laptops(int aScreenSize, bool aRetinaDisplay, double aSpeed, bool aFingerPrintScanner, int aRotation)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Laptops::Laptops(int, bool, double, bool, int)"
-                  moduleName = "Chapter-13"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sabinghimire/Documents/School%20Stuff/CS%202/X%20code/Chapter-13/Chapter-13/Laptops.cpp"
-                  timestampString = "510604765.998536"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Laptops::Laptops(int, bool, double, bool, int)"
-                  moduleName = "Chapter-13"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sabinghimire/Documents/School%20Stuff/CS%202/X%20code/Chapter-13/Chapter-13/Laptops.cpp"
-                  timestampString = "510604766.000095"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "46">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

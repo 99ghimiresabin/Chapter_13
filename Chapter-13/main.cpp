@@ -20,6 +20,7 @@ using namespace std;
 
 
 int main(int argc, const char * argv[]) {
+    cout << "Welcome to my Class Aggregration Project" << endl << endl;
     int n;
     cout << "How many objects do you want to create" << endl;
     cin >> n;
@@ -37,6 +38,7 @@ int main(int argc, const char * argv[]) {
     delete[] myElectronics;
     
     vector<Desktop*> myDesktop;
+    
     for (int i=0; i<n; i++)
     {
         Desktop *aDesktop = new Desktop();
@@ -46,6 +48,8 @@ int main(int argc, const char * argv[]) {
     {
         delete myDesktop[i];
     }
+    
+    cout<< "Program ending Have a nice day" << endl;
     
     return 0;
 }

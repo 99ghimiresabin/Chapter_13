@@ -8,6 +8,8 @@
 
 #include <iostream>
 #include "ConsumerElectronic.hpp"
+#include "Desktop.hpp"
+#include <vector>
 using namespace std;
 
 
@@ -27,6 +29,17 @@ int main(int argc, const char * argv[]) {
     }
     
     delete[] myElectronics;
+    
+    vector<Desktop*> myDesktop;
+    for (int i=0; i<n; i++)
+    {
+        Desktop *aDesktop = new Desktop();
+        myDesktop.push_back(aDesktop);
+    }
+    for (int i=0; i<n; i++)
+    {
+        delete myDesktop[i];
+    }
     
     return 0;
 }

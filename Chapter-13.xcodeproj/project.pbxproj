@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0452103F1E6E8BB9005D971C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0452103E1E6E8BB9005D971C /* main.cpp */; };
 		045210471E6E8C32005D971C /* ConsumerElectronic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045210451E6E8C32005D971C /* ConsumerElectronic.cpp */; };
+		0452104A1E6E9D5E005D971C /* Desktop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045210481E6E9D5E005D971C /* Desktop.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		0452103E1E6E8BB9005D971C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		045210451E6E8C32005D971C /* ConsumerElectronic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConsumerElectronic.cpp; sourceTree = "<group>"; };
 		045210461E6E8C32005D971C /* ConsumerElectronic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConsumerElectronic.hpp; sourceTree = "<group>"; };
+		045210481E6E9D5E005D971C /* Desktop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Desktop.cpp; sourceTree = "<group>"; };
+		045210491E6E9D5E005D971C /* Desktop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Desktop.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				0452103E1E6E8BB9005D971C /* main.cpp */,
 				045210451E6E8C32005D971C /* ConsumerElectronic.cpp */,
 				045210461E6E8C32005D971C /* ConsumerElectronic.hpp */,
+				045210481E6E9D5E005D971C /* Desktop.cpp */,
+				045210491E6E9D5E005D971C /* Desktop.hpp */,
 			);
 			path = "Chapter-13";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0452103F1E6E8BB9005D971C /* main.cpp in Sources */,
+				0452104A1E6E9D5E005D971C /* Desktop.cpp in Sources */,
 				045210471E6E8C32005D971C /* ConsumerElectronic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +258,7 @@
 				045210441E6E8BB9005D971C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

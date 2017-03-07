@@ -1,11 +1,14 @@
-//
-//  Laptops.hpp
-//  Chapter-13
-//
-//  Created by Sabin Ghimire on 3/7/17.
-//  Copyright © 2017 Sabin Ghimire. All rights reserved.
-//
+//*****************
+//Project Name: Chapter 13
+//Project Description: class aggregration
+//Project Author: Ghimire, Sabin
+//Is this an extra credit Project:  No
+//Date completed: 03/07/2017
+//Operating system used:OSx
+//IDE Used:xCode
 
+
+//*****************
 #ifndef Laptops_hpp
 #define Laptops_hpp
 
